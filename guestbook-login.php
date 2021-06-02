@@ -7,7 +7,7 @@
 
 		if ($username != "" && $password != ""){
 
-			$query = "select count(*) as cntUser from login where username='".$username."' and password='".$password."'";
+			$query = "select count(*) as cntUser from USERACCOUNT where username='".$username."' and password='".$password."'";
 			$result = mysqli_query($conn,$query);
 			$row = mysqli_fetch_array($result);
 

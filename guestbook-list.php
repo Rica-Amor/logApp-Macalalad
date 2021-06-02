@@ -1,7 +1,7 @@
 <?php
 	require('config/config.php');
 	require('config/db.php');
-	$persons = mysqli_query($conn, "SELECT * FROM person");
+	$persons = mysqli_query($conn, "SELECT * FROM PERSON");
 ?>
 
 <?php include('inc/header.php'); ?>

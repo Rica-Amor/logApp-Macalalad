@@ -1,6 +1,6 @@
 <?php
 	
-	define('DB_HOST', 'localhost');
-	define('DB_USER', 'root');
-	define('DB_PASS', '1234');
-	define('DB_NAME', 'logapp');
+	define('DB_HOST', 'sql6.freesqldatabase.com');
+	define('DB_USER', 'sql6416509');
+	define('DB_PASS', 'mRLPlJMlJv');
+	define('DB_NAME', 'sql6416509');

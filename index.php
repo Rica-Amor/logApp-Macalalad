@@ -9,7 +9,7 @@
 		$firstname = mysqli_real_escape_string($conn,$_POST['firstname']);
 		$address = mysqli_real_escape_string($conn,$_POST['address']);
 
-		$query = "INSERT INTO person(lastname, firstname,address,logdt) VALUES('$lastname', '$firstname', '$address', now())";
+		$query = "INSERT INTO PERSON(lastname, firstname,address,logdt) VALUES('$lastname', '$firstname', '$address', now())";
 
 		if(mysqli_query($conn, $query)){
       header('Location: index.php');
